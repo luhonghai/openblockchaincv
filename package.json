@@ -33,5 +33,12 @@
     "web3": "^0.20.0",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "file-loader": "^1.1.11",
+    "openzeppelin-solidity": "1.10.0",
+    "postcss-loader": "^2.1.5",
+    "url-loader": "^1.0.1"
   }
 }
