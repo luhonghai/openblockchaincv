@@ -3,7 +3,6 @@ sudo: false
 node_js:
   - "node"
 install:
-  - npm install -g truffle
   - npm install
 script:
-  - truffle test
+  - truffle test --network ganache_cli
