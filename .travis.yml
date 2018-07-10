@@ -5,4 +5,4 @@ node_js:
 install:
   - npm install
 script:
-  - truffle test --network ganache_cli
+  - npm test
