@@ -1,14 +1,14 @@
 {
-  "name": "truffle-init-webpack",
-  "version": "0.0.2",
-  "description": "Frontend example using truffle v3",
+  "name": "open-blockchain-cv",
+  "version": "0.0.1",
+  "description": "Create your own CV on blockchain",
   "scripts": {
     "lint": "eslint ./",
     "build": "webpack",
     "dev": "webpack-dev-server",
     "test": "truffle test --network=ganache_cli"
   },
-  "author": "Douglas von Kohorn",
+  "author": "Hai Lu",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.22.2",
@@ -31,18 +31,19 @@
     "json-loader": "^0.5.4",
     "style-loader": "^0.21.0",
     "truffle-contract": "^3.0.6",
-    "truffle": "^4.1.11",
+    "truffle": "^4.1.13",
     "truffle-hdwallet-provider": "0.0.5",
     "ganache-cli": "latest",
     "web3": "^0.20.0",
     "webpack": "^4.16.1",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-dev-server": "^3.1.4",
+    "openzeppelin-solidity": "1.10.0"
   },
   "dependencies": {
     "bootstrap": "^4.1.1",
     "file-loader": "^1.1.11",
-    "openzeppelin-solidity": "1.11.0",
-    "postcss-loader": "^2.1.5",
+    "npm": "^6.1.0",
+    "postcss-loader": "^2.1.6",
     "url-loader": "^1.0.1"
   }
 }
