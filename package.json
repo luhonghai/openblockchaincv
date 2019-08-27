@@ -22,7 +22,7 @@
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^1.0.0",
     "eslint": "^5.1.0",
-    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard": "^14.1.0",
     "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-mocha": "^5.1.0",
     "eslint-plugin-promise": "^3.0.0",
